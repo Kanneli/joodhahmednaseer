@@ -10,7 +10,7 @@
         letter-spacing: 1px;
     }
     body {
-        @apply bg-amber-100 text-amber-950 font-semibold text-lg
+        @apply bg-white text-amber-950 font-semibold text-lg
     }
     
     h1 {
@@ -21,7 +21,13 @@
     }
 }
 
+#navbar {
+    @apply m-9 p-4 bg-white rounded-2xl fixed shadow-2xl shadow-amber-400
+}
 
+#home {
+    @apply h-screen p-4
+}
 #coming-soon {
-    @apply flex flex-col justify-center align-middle h-screen
+    @apply flex flex-col justify-center align-middle bg-amber-100 rounded-xl h-full
 }
