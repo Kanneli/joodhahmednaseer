@@ -28,6 +28,10 @@
 #home {
     @apply h-screen p-4
 }
+
 #coming-soon {
-    @apply flex flex-col justify-center align-middle bg-amber-100 rounded-xl h-full
+    @apply flex md:flex-row flex-col justify-center bg-amber-100 rounded-xl h-full
+}
+#coming-soon h1, #coming-soon h2 {
+    @apply text-start
 }
