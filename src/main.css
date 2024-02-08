@@ -32,6 +32,6 @@
 #coming-soon {
     @apply flex md:flex-row flex-col justify-center bg-amber-100 rounded-xl h-full
 }
-#coming-soon h1, #coming-soon h2 {
-    @apply text-start
+#coming-soon h1, #coming-soon h2, #coming-soon p {
+    @apply text-center md:text-start w-full md:w-9/12
 }
