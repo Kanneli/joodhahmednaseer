@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">');
 
 @tailwind base;
 @tailwind components;
@@ -6,23 +6,28 @@
 
 @layer base {
     html {
-        font-family: 'Londrina Solid', sans-serif;
         letter-spacing: 1px;
     }
     body {
-        @apply bg-white text-amber-950 font-semibold text-lg
+        @apply bg-gray-950 text-amber-950 font-semibold text-lg
     }
     
     h1 {
-        @apply text-5xl md:text-6xl font-extrabold text-center text-amber-600 leading-normal md:leading-relaxed
+        font-family: "Syncopate", sans-serif;
+        font-weight: 700;
+        @apply text-5xl md:text-6xl font-extrabold text-center text-gray-300 leading-normal md:leading-relaxed
     }
     h2 {
-        @apply text-3xl md:text-4xl font-bold text-center text-amber-500
+        font-family: "Syncopate", sans-serif;
+        font-weight: 700;
+        @apply text-3xl md:text-4xl font-bold text-center text-gray-300
     }
 }
 
 #navbar {
-    @apply m-9 p-4 bg-white rounded-2xl fixed shadow-2xl shadow-amber-400
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    @apply m-3 py-3 px-6 bg-gray-900 text-gray-300 rounded shadow-xl shadow-black
 }
 
 #home {

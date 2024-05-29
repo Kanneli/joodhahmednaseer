@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router'
 
 <template>
   <div id="navbar">
-    Hello World
+    Kanneli
   </div>
   <RouterView />
 </template>
