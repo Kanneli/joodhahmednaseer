@@ -89,6 +89,15 @@
 			margin: 50px 0;
 		}
 	}
+	@media only screen and (min-width: 1200px) {
+		#navbar {
+			top: 200px;
+		}
+		#content {
+			width: 50vw;
+			margin: 200px 0;
+		}
+	}
 
     .nav-button {
         display: flex;
