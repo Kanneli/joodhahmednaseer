@@ -14,27 +14,27 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div id="page">
-	<div id="navbar">
-		<a href="/" title="home">
-			<div class:active={isActive('/')} class="nav-button home">
-				<span class="home-icon">
-					<Kanneli />
-				</span>
-			</div>
-		</a>
-		<a href="/about" title="about">
-            <div class:active={isActive('/about')} class="nav-button">
-                <span class="icon-[mingcute--user-2-fill]"></span>
-            </div>
-        </a>
-        <a href="/posts" title="posts">
-            <div class:active={isActive('/posts')} class="nav-button">
-                <span class="icon-[mingcute--chat-1-fill]"></span>
-            </div>
-        </a>
-	</div>
+<div id="navbar">
+	<a href="/" title="home">
+		<div class:active={isActive('/')} class="nav-button home">
+			<span class="home-icon">
+				<Kanneli />
+			</span>
+		</div>
+	</a>
+	<a href="/about" title="about">
+		<div class:active={isActive('/about')} class="nav-button">
+			<span class="icon-[mingcute--user-2-fill]"></span>
+		</div>
+	</a>
+	<a href="/posts" title="posts">
+		<div class:active={isActive('/posts')} class="nav-button">
+			<span class="icon-[mingcute--chat-1-fill]"></span>
+		</div>
+	</a>
+</div>
 
+<div id="page">
 	<div id="content">
 		{@render children()}
 	</div>
@@ -63,6 +63,31 @@
 	#content {
 		width: 50vw;
 		margin: 200px 0;
+	}
+	@media only screen and (max-width: 600px) {
+		#navbar {
+			display: flex;
+			flex-direction: row;
+			gap: 15px;
+			margin: 0 5vw;
+			position: fixed; 
+			top: 5vw;
+			left: 0px;
+			width: 90vw;
+		}
+		#content {
+			width: 80vw;
+			margin: 140px 0;
+		}
+	}
+	@media only screen and (min-width: 600px) {
+		#navbar {
+			top: 50px;
+		}
+		#content {
+			width: 60vw;
+			margin: 50px 0;
+		}
 	}
 
     .nav-button {
