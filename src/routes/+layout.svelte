@@ -1,9 +1,9 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.ico';
+	import Kanneli from '$lib/assets/svg/Kanneli.svelte'
 
 	import { page } from '$app/state';
-	import { onMount } from "svelte";
 
 	let { children } = $props();
 
@@ -18,7 +18,9 @@
 	<div id="navbar">
 		<a href="/" title="home">
 			<div class:active={isActive('/')} class="nav-button home">
-				<span class="icon-[mingcute--home-1-fill]"></span>
+				<span class="home-icon">
+					<Kanneli />
+				</span>
 			</div>
 		</a>
 		<a href="/about" title="about">
@@ -67,7 +69,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2em;
+        font-size: 1.6em;
         height: 50px;
         aspect-ratio: 1/1;
         border-radius: 15px;
@@ -86,7 +88,12 @@
 		background: #e0e0e0;
 		box-shadow: inset -5px -5px 8px #a6a6a6, inset 5px 5px 8px #ffffff;
 	}
-	.nav-button.active.home {
+	.nav-button.active.home, .nav-button.active .home-icon {
 		color: black;
+		fill: black;
+	}
+	.home-icon {
+		fill: #e5d8bc;
+		width: 30px;
 	}
 </style>
