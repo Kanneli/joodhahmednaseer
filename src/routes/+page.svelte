@@ -1,7 +1,3 @@
-<div id="navbar">
-    Hello world
-</div>
-
 <div id="hero-section">
     <div class="mb-6">
         <h1 class="harmattan-regular">ٱلسَّلَامُ عَلَيْكُمْ</h1>
@@ -38,30 +34,25 @@
 
     h1 {
         font-size: 4rem;
-        font-family: "Harmattan", sans-serif;
+        font-family: "Young Serif", serif;
         font-weight: 800;
     }
     h1.harmattan-regular {
         font-size: 3.2rem;
     }
     h2 {
-        font-size: 2.2rem;
-        font-family: "Harmattan", sans-serif;
+        font-size: 1.8rem;
+        font-family: "Young Serif", serif;
         font-weight: 400;
     }
     h3 {
         font-size: 1.8rem;
         font-family: "Harmattan", sans-serif;
-        font-weight: 400;
-    }
-
-    #navbar {
-        background-color: rgb(255, 248, 239);
-        padding: 20px;
-        border-radius: 5px  ;
-    }
-
-    #hero-section {
-        margin: 40px;
+        font-weight: 500;
     }
 </style>
+
+
+
+
+
