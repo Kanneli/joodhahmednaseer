@@ -60,7 +60,7 @@
 	}
 	#content {
 		width: 50vw;
-		margin-top: 200px;
+		margin: 200px 0;
 	}
 
     .nav-button {
