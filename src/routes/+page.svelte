@@ -32,13 +32,13 @@
 
 <style>
     a {
-        color: #d6593a;
-        text-decoration: underline #d6593a wavy 2px;
+        color: #b62f46;
+        text-decoration: underline #b62f46 wavy 2px;
         transition: all 0.2s;
     }
     a:hover {
-        color: #d6803a;
-        text-decoration: underline #d6803a wavy 2px;
+        color: #df576e;
+        text-decoration: underline #df576e wavy 2px;
         transition: all 0.2s;
     }
     h1 {

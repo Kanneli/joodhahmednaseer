@@ -57,7 +57,7 @@
 		top: 200px;
 		left: 0;
 		border-radius: 20px;
-		background-color: #d6593a;
+		background-color: #b62f46;
 	}
 	#content {
 		width: 50vw;
@@ -107,17 +107,17 @@
         aspect-ratio: 1/1;
         border-radius: 15px;
         color: #e5d8bc;
-		background: #d6593a;
-		box-shadow:  -5px -5px 9px #ab472e, 5px 5px 9px #ff6b46;
+		background: #b62f46;
+		box-shadow:  -5px -5px 9px #641b28, 5px 5px 9px #f55670;
 		transition: all 0.05s;
 		transition-timing-function:ease-out;
     }
 	
 	.nav-button:hover {
-		background: linear-gradient(315deg, #b14328, #f77352);
+		background: linear-gradient(145deg, #df435d, #862031);
 	}
 	.nav-button.active {
-		color: #d6593a;
+		color: #b62f46;
 		background: #e0e0e0;
 		box-shadow: inset -5px -5px 8px #a6a6a6, inset 5px 5px 8px #ffffff;
 	}
