@@ -9,8 +9,6 @@
 	function isActive(path: string) {
 		return page.url.pathname === path;
 	}
-
-	export const prerender = true;
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
