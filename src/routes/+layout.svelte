@@ -4,12 +4,13 @@
 	import Kanneli from '$lib/assets/svg/Kanneli.svelte'
 
 	import { page } from '$app/state';
-
 	let { children } = $props();
-
+	
 	function isActive(path: string) {
-    	return page.url.pathname === path;
-  	}
+		return page.url.pathname === path;
+	}
+
+	export const prerender = true;
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
