@@ -51,7 +51,6 @@
 	}
 	#navbar {
 		row-gap: 15px;
-		margin: 0 50px;
 		padding: 10px;
 		position: fixed;
 		top: 200px;
@@ -82,6 +81,7 @@
 	@media only screen and (min-width: 600px) {
 		#navbar {
 			top: 50px;
+			margin: 0 25px
 		}
 		#content {
 			width: 60vw;
@@ -91,6 +91,7 @@
 	@media only screen and (min-width: 1200px) {
 		#navbar {
 			top: 200px;
+			margin: 0 50px;
 		}
 		#content {
 			width: 50vw;

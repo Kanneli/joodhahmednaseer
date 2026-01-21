@@ -1,4 +1,45 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
-@plugin "@iconify/tailwind4";
+@plugin "@iconify/tailwind4";         
+
+@theme {
+    --color-*: initial;
+    --color-primary-dark: #dacdb3;
+    --color-primary: #e5d8bc;
+    --color-primary-light: #f0e4d0;
+    --color-secondary: #b62f46;
+    --color-secondary-light: #df576e;
+    --color-accent-light: #29b1a3;
+    --color-accent: #0a9184;
+    --color-accent-dark: #0e7066;
+
+    --font-*: initial;
+    --font-title: ui-serif, "Young Serif";
+    --font-arabic: ui-sans-serif, Harmattan;
+    --font-text: ui-sans-serif, Harmattan;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 800;
+}
+
+@utility title {
+    @apply font-title text-6xl leading-20
+}
+@utility subtitle {
+    @apply font-title text-3xl leading-12
+}
+
+@utility card {
+    @apply bg-primary-light rounded-xl px-9 py-6
+}
+
+@utility selectable {
+    @apply hover:bg-primary-dark transition-colors
+}
+
+@utility link {
+    @apply text-accent hover:text-accent-light underline decoration-wavy decoration-inherit decoration-2 transition-colors
+}
