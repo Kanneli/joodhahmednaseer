@@ -9,7 +9,7 @@
             Hellooo, I'm <a class="link" href="/about">Joodh</a>!
         </h1>
         <h2 class="subtitle">
-            (Kanneli is an alias I am fond of using)
+            (Kanneli is an alias I'm fond of using)
         </h2>
     </div>
 
