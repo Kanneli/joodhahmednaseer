@@ -41,5 +41,5 @@
 }
 
 @utility link {
-    @apply text-accent hover:text-accent-light underline decoration-wavy decoration-inherit decoration-2 transition-colors
+    @apply text-secondary hover:text-secondary-light underline decoration-wavy decoration-inherit decoration-2 transition-colors
 }
